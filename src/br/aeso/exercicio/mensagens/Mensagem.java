@@ -7,12 +7,14 @@ public class Mensagem {
 	private String titulo;
 	private String conteudo;
 	private Date data;
-	public Mensagem(int codigo, String titulo, String conteudo, Date data) {
+	private TipoMensagem tipo;
+	public Mensagem(int codigo, String titulo, String conteudo, Date data, TipoMensagem tipo) {
 		super();
 		this.codigo = codigo;
 		this.titulo = titulo;
 		this.conteudo = conteudo;
 		this.data = data;
+		this.tipo = tipo;
 	}
 	public int getCodigo() {
 		return codigo;
@@ -38,6 +40,11 @@ public class Mensagem {
 	public void setData(Date data) {
 		this.data = data;
 	}
-	
+	public TipoMensagem getTipo() {
+		return tipo;
+	}
+	public void setTipo(TipoMensagem tipo) {
+		this.tipo = tipo;
+	}
 	
 }

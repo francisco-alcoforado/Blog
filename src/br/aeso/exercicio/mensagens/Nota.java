@@ -1,10 +1,7 @@
-package br.aeso.exercicio.notas;
+package br.aeso.exercicio.mensagens;
 
 import java.util.ArrayList;
 import java.util.Date;
-
-import br.aeso.exercicio.mensagens.Mensagem;
-import br.aeso.exericio.comentarios.Comentario;
 
 public class Nota extends Mensagem{
 	private ArrayList<Comentario> listaComentarios;

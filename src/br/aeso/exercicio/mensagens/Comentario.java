@@ -1,8 +1,7 @@
-package br.aeso.exericio.comentarios;
+package br.aeso.exercicio.mensagens;
 
 import java.util.Date;
 
-import br.aeso.exercicio.mensagens.Mensagem;
 import br.aeso.exercicio.usuario.Usuario;
 
 public class Comentario extends Mensagem{
